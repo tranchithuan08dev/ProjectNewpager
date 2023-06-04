@@ -1,0 +1,58 @@
+.zvn-img-full-height {
+  height: 100%;
+  object-fit: cover;
+}
+
+.zvn-line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.btn-paginate.disabled {
+  pointer-events: none;
+}
+
+.w3l-homeblock5 img {
+  border-top-right-radius: 15px;
+}
+
+.w3l-homeblock5 .card-body.blog-details {
+  padding-left: 25px;
+}
+
+mark,
+.mark {
+  padding: 0;
+  background-color: gold;
+}
+
+#article-content .image {
+  padding: 0;
+}
+
+#article-content .image img {
+  width: 100%;
+}
+
+#article-content .image figcaption {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.topics {
+  padding: 10px;
+  text-align: center;
+}
+
+.icon-like {
+  color: red;
+  font-size: 30px;
+  margin-left: 40px;
+
+}
+
+.active {
+  color: aqua;
+}

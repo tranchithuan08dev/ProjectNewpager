@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>NewsBlog a Blog Category Bootstrap Responsive Website Template | Single post </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style-liberty.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header-component></header-component>
+    <!-- single post -->
+    <section class="text-11 py-5">
+        <div class="text11 py-lg-5 py-md-4">
+            <div class="container">
+                <div class="blog-title px-md-5">
+                    <h3 class="title-big" id="article-title"></h3>
+                    <ul class="blog-list" id="articles-detail">
+
+                    </ul>
+                </div>
+            </div>
+            <div class="image mb-sm-5 mb-4">
+                <img src="assets/images/blogsingle.jpg" id="article-thumb" alt="" class="img-fluid radius-image-full">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="text11-content">
+                            <div id="article-content">
+                                <!-- todo -->
+                            </div>
+
+                            <div class="social-share-blog mt-5">
+
+                                <ul class="column3 tags m-0 p-0">
+                                    <li>
+                                        <p class="m-0 mr-sm-4 mr-2">Tags :</p>
+                                    </li>
+                                    <div id="tags">
+                                        <li><a href="#url" class="btn-small">Fashion</a></li>
+                                        <li><a href="#url" class="btn-small">Beauty</a></li>
+                                    </div>
+
+                                </ul>
+                                <ul class="column3 social m-0 p-0">
+                                    <li>
+                                        <p class="m-0 mr-sm-4 mr-2">Share this post :</p>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/" class="facebook"><span
+                                                class="fa fa-facebook-square"></span></a>
+                                    </li>
+                                    <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoidmkifQ%3D%3D%22%7D"
+                                            class="twitter"><span class="fa fa-twitter"></span></a></li>
+                                    <li><a href="https://www.instagram.com/" class="linkedin"><span
+                                                class="fa fa-linkedin"></span></a>
+                                    </li>
+                                    <li><a href="https://mail.google.com/" class="mail"><span
+                                                class="fa fa-envelope"></span></a></li>
+                                </ul>
+                            </div>
+                            <div class="new-posts clearfix">
+                                <a class="prev-post pull-left" href="#prev"><span class="fa fa-arrow-left"
+                                        aria-hidden="true"></span>
+                                    Previous Post</a>
+                                <a class="next-post pull-right" href="#next">Next Post <span class="fa fa-arrow-right"
+                                        aria-hidden="true"></span></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="sidebar-side col-lg-4 col-md-12 col-sm-12 mt-lg-0 mt-5">
+                        <aside class="sidebar">
+
+                            <!-- Author card Widget-->
+                            <div class="sidebar-widget sidebar-blog-category">
+                                <div class="author">
+                                    <div class="sidebar-title">
+                                        <h4>About author</h4>
+                                    </div>
+                                    <div class="author-detalis">
+                                        <a href="#author" class="author-image"><img src="assets/images/a2.jpg"
+                                                alt="author image" class="img-fluid"></a>
+                                        <div class="author-info">
+                                            <a href="#author-name" class="author-name">Isabella</a>
+                                            <a href="#follow" class="btn btn-outline-primary">Follow </a>
+                                        </div>
+                                    </div>
+                                    <p class="mt-2">I am a Fashion designer, Makeup artist, and Blog
+                                        writer.</p>
+                                </div>
+                            </div>
+                            <!-- //Author card Widget-->
+
+                            <!--Blog Category Widget-->
+                            <div class="sidebar-widget sidebar-blog-category">
+                                <div class="sidebar-title">
+                                    <h4>Categories</h4>
+                                </div>
+                                <ul class="blog-cat" id="categories">
+
+                                </ul>
+                            </div>
+
+
+                            <!-- Popular Post Widget-->
+                            <div class="sidebar-widget popular-posts">
+                                <div class="sidebar-title">
+                                    <h4>Bài viết liên quan</h4>
+                                </div>
+
+                                <div>
+                                    <ul id="related-posts">
+
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <!-- sidebar sticky -->
+                            <div class="sidebar-sticky">
+                                <div class="sidebar-sticky-fix">
+                                    <!--Blog Category Widget-->
+                                    <div class="sidebar-widget sidebar-blog-category archive">
+                                        <div class="sidebar-title">
+                                            <h4>Bài Viết Vừa Xem</h4>
+                                        </div>
+                                        <ul class="blog-cat twitter-feed" id="articles-viewed">
+                                            <!-- <li><a href="#url"> Creating an Art that shows the beauty in everyone’s
+                                                    ideas of flaws.
+                                                    . #beauty #style #art #creative…</a></li>
+                                            <li><a href="#url">See our lifestyle and beauty posts on twitter. #LifeStyle
+                                                    #Beauty
+                                                </a></li> -->
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- //sidebar sticky -->
+
+                        </aside>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="comments">
+                            <h3 class="aside-title">Comments</h3>
+                            <div class="comments-grids">
+                                <ul id="post-comments">
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="leave-comment-form" id="comment">
+                            <h3 class="aside-title">Leave a reply</h3>
+                            <div id="message-comment"></div>
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" name="Name" id="Your-Name" class="form-control"
+                                        placeholder="Your Name" required="">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="Comment" id="Your-Comments" class="form-control"
+                                        placeholder="Your Comment" required=""></textarea>
+                                </div>
+                                <button type="button" class="btn btn-style btn-primary" id="btn-send-comments">Bình
+                                    luận</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- //single post -->
+
+    <div class="w3l-homeblock2 py-5">
+        <div class="container py-lg-5 py-md-4">
+            <h3 class="section-title-left mb-4">You may also like </h3>
+            <div class="row" id="articles-popular">
+
+            </div>
+        </div>
+    </div>
+
+    <footer-component></footer-component>
+
+    <script src="components/Header.js"></script>
+    <script src="components/Footer.js"></script>
+
+    <!-- Template JavaScript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+
+    <!-- theme changer js -->
+    <script src="assets/js/theme-change.js"></script>
+    <!-- //theme changer js -->
+
+    <!-- courses owlcarousel -->
+    <script src="assets/js/owl.carousel.js"></script>
+
+    <!-- script for testimonials -->
+    <script>
+        $(document).ready(function () {
+            $('.owl-testimonial').owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: true,
+                responsiveClass: true,
+                autoplay: false,
+                autoplayTimeout: 5000,
+                autoplaySpeed: 1000,
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    480: {
+                        items: 1,
+                        nav: false
+                    },
+                    667: {
+                        items: 1,
+                        nav: true
+                    },
+                    1000: {
+                        items: 1,
+                        nav: true
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for testimonials -->
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/locale/vi.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/plugin/relativeTime.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/general.js"></script>
+    <script src="js/detail.js"></script>
+</body>
+
+</html>
